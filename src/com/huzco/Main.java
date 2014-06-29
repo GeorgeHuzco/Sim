@@ -17,7 +17,7 @@ public class Main {
 			for (HistoryItem item : history.getItems()) {
 				System.out.println(item.getSymbol() + ", " + item.getDate().toString() + ", " + item.getClose());
 			}
-			System.out.println(history.getItems().size() + " items.");
+			System.out.println(history.getItems().size() + " items or trading days.");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
